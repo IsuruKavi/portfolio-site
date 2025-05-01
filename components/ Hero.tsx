@@ -25,14 +25,14 @@ const Hero = () => {
             <TextGenerateEffect
               duration={2}
               filter={false}
-              className="text-4xl text-center z-10 mb-4"
+              className="text-4xl text-center z-10 mt-8 px-4"
               words={
                 "Turn Ideas Into Experiences — Not Just Things You See, But Things You Feel And Enjoy Using."
               }
             />
             
         
-          <p className="text-white md:text-2xl z-10">
+          <p className="text-white md:text-2xl z-10 pt-8">
             Hi! I&apos;m Isuru Kavi , a Full stack mobile developer
           </p>
           <div className="my-8">
