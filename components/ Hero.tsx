@@ -12,14 +12,14 @@ const Hero = () => {
         <div className=" flex flex-col  h-full absolute  top-0 left-0 items-center justify-center bg-transparent w-full">
           <div
             className={cn(
-              "absolute inset-3 ",
-              "[background-size:80px_80px] ",
+              "absolute inset-3 top-0 h-full",
+              "[background-size:90px_90px] ",
               "[background-image:linear-gradient(to_right,#e4e4e7_1px,transparent_1px),linear-gradient(to_bottom,#e4e4e7_1px,transparent_1px)]",
               "dark:[background-image:linear-gradient(to_right,#262626_1px,transparent_1px),linear-gradient(to_bottom,#262626_1px,transparent_1px)]"
             )}
           />
           {/* Radial gradient for the container to give a faded look */}
-          <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_1%,black)] dark:bg-black"></div>
+          <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_1%,black)] dark:bg-black-100"></div>
         
             
             <TextGenerateEffect
@@ -40,7 +40,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </BackgroundBeamsWithCollision>
+     </BackgroundBeamsWithCollision>
   );
 };
 
