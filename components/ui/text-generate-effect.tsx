@@ -39,8 +39,8 @@ export const TextGenerateEffect = ({
               key={word + idx}
               className={`${
                 idx > 10
-                  ? "text-purple-500 text-2xl md:text-5xl font-medium opacity-0"
-                  : "dark:text-white text-black opacity-0 text-2xl md:text-5xl font-medium"
+                  ? "text-purple-400 text-2xl md:text-6xl font-medium opacity-0"
+                  : "dark:text-white text-black opacity-0 text-2xl md:text-6xl font-medium"
               }`}
               style={{
                 filter: filter ? "blur(10px)" : "none",

@@ -8,7 +8,7 @@ import { TextGenerateEffect } from "./ui/text-generate-effect";
 const Hero = () => {
   return (
     <BackgroundBeamsWithCollision>
-      <div className="pb-40 pt-46  w-full ">
+      <div className="pb-40 pt-46  w-full md:h-[100vh] mt-40 md:mt-9 ">
         <div className=" flex flex-col  h-full absolute  top-0 left-0 items-center justify-center bg-transparent w-full">
           <div
             className={cn(
@@ -20,27 +20,26 @@ const Hero = () => {
           />
           {/* Radial gradient for the container to give a faded look */}
           <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_1%,black)] dark:bg-black-100"></div>
-        
-            
+          <div className="px-8 z-10">
             <TextGenerateEffect
               duration={2}
               filter={false}
-              className="text-4xl text-center z-10 mt-8 px-4"
+              className="text-5xl md:px-8 text-center z-10 mt-8 "
               words={
-                "Turn Ideas Into Experiences — Not Just Things You See, But Things You Feel And Enjoy Using."
+                "Create Experiences — Not Just Visuals, But Moments You Feel and Enjoy."
               }
             />
-            
-        
+          </div>
+
           <p className="text-white md:text-2xl z-10 pt-8">
             Hi! I&apos;m Isuru Kavi , a Full stack mobile developer
           </p>
           <div className="my-8">
-            <MagicButton />
+            <MagicButton title="See my work"/>
           </div>
         </div>
       </div>
-     </BackgroundBeamsWithCollision>
+    </BackgroundBeamsWithCollision>
   );
 };
 

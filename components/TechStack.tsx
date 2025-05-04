@@ -3,12 +3,12 @@ import React, { useState, useEffect } from "react";
 import {
   FaReact,
   FaNodeJs,
-  FaHtml5,
-  FaCss3Alt,
+
   FaJs,
   FaGithub,
   FaJava,
 } from "react-icons/fa";
+import { FaAws, FaDocker } from "react-icons/fa6";
 import {
   SiTailwindcss,
   SiTypescript,
@@ -18,8 +18,8 @@ import {
 
 export default function TechStack() {
   const techIcons = [
-    { icon: <FaHtml5 />, color: "text-orange-500", id: 0 },
-    { icon: <FaCss3Alt />, color: "text-blue-500", id: 1 },
+    { icon: <FaAws />, color: "text-orange-500", id: 0 },
+    { icon: <FaDocker />, color: "text-blue-500", id: 1 },
     { icon: <FaJs />, color: "text-yellow-400", id: 2 },
     { icon: <SiTypescript />, color: "text-blue-400", id: 3 },
     { icon: <FaReact />, color: "text-cyan-400", id: 4 },
@@ -66,7 +66,7 @@ export default function TechStack() {
   };
 
   return (
-    <div className="bg-black-100 py-16 px-4">
+    <div className="bg-black-100 md:pb-16 md:pt-5 px-4">
       <h2 className="text-white text-center text-2xl md:text-4xl font-semibold mb-10">
         My Tech Stack
       </h2>
