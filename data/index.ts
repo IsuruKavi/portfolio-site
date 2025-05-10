@@ -50,3 +50,20 @@ export const socialMedia = [
     img: "/link.svg",
   },
 ];
+export const myProjects = [
+  {
+    id: 1,
+    title: "Music Player App",
+    desc: "A feature-rich music player built using React Native, supporting offline downloads, categorized tracks, and background playback.",
+  },
+  {
+    id: 2,
+    title: "English Vocabulary App",
+    desc: "An educational mobile app built with Expo to help users improve their English vocabulary with categorized word lists, quizzes, and progress tracking.",
+  },
+  {
+    id: 3,
+    title: "Patient Management Service",
+    desc: "A backend service developed using Spring Boot to manage patient records, appointments, and doctor communications securely and efficiently.",
+  },
+];

@@ -1,5 +1,6 @@
 import Hero from "@/components/ Hero";
 import Footer from "@/components/Footer";
+import MyProject from "@/components/MyProject";
 import TechStack from "@/components/TechStack";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import Experience from "@/components/WorkExperince";
@@ -11,6 +12,7 @@ export default function Home() {
       <FloatingNav navItems={navItems} />
       <Hero />
       <TechStack />
+      <MyProject/>
       <Experience />
       <Footer/>
     </main>
