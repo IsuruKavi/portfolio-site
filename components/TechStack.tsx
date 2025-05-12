@@ -67,7 +67,7 @@ export default function TechStack() {
 
   return (
     <div className="bg-black-100 md:pb-16 md:pt-5 px-4">
-      <h2 className="text-white text-center text-2xl md:text-4xl font-semibold mb-10">
+      <h2 className="text-white text-center text-2xl md:text-4xl font-semibold mb-10 font-poppins">
         My Tech Stack
       </h2>
       <div className="flex flex-wrap justify-center gap-8">

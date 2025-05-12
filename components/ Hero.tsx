@@ -46,10 +46,10 @@ const Hero = () => {
           <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_1%,black)] dark:bg-black-100"></div>
           <div className="px-8 z-10 mt-15">
             {" "}
-            <TypewriterEffectSmooth words={words} />
+            <TypewriterEffectSmooth words={words} className="font-poppins" />
           </div>
 
-          <p className="text-white md:text-2xl z-10 pt-8">
+          <p className="text-white md:text-2xl z-10 pt-8 text-center font-poppins">
             Hi! I&apos;m Isuru Kavi , a Full stack mobile developer
           </p>
           <div className="my-8">

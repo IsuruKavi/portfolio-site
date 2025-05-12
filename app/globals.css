@@ -2,6 +2,7 @@
 
 @theme {
   --color-black-100:oklch(0.11 0.0551 262.53);
+   --font-poppins: 'Poppins', sans-serif;
 }
 
 @theme inline {

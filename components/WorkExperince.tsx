@@ -9,7 +9,7 @@ const Experience = () => {
   return (
     <div className="py-20 w-full px-20">
       <h1 className="heading text-white text-center text-xl md:text-5xl font-semibold">
-        My <span className="text-purple-400">work experience</span>
+        My <span className="text-purple-400 font-poppins">work experience</span>
       </h1>
 
       <div className="w-full mt-12 grid lg:grid-cols-2 grid-cols-1 gap-10">
