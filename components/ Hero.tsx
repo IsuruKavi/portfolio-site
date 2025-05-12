@@ -32,7 +32,7 @@ const Hero = () => {
   ];
   return (
     <BackgroundBeamsWithCollision>
-      <div className="md:pb-40 pt-46  w-full md:h-[100vh] mt-80 md:mt-9 ">
+      <div className="md:pb-40 pt-46  w-full md:h-[100vh] mt-100 md:mt-9 ">
         <div className=" flex flex-col  h-full absolute  top-0 left-0 items-center justify-center bg-transparent w-full">
           <div
             className={cn(
@@ -44,7 +44,7 @@ const Hero = () => {
           />
           {/* Radial gradient for the container to give a faded look */}
           <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_1%,black)] dark:bg-black-100"></div>
-          <div className="px-8 z-10 ">
+          <div className="px-8 z-10 mt-15">
             {" "}
             <TypewriterEffectSmooth words={words} />
           </div>

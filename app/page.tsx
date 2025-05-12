@@ -9,12 +9,14 @@ import { navItems } from "@/data";
 export default function Home() {
   return (
     <main className="relative  bg-black-100  flex justify-center flex-col  ">
-      <FloatingNav navItems={navItems} />
+      <div className="bg-yellow-200">
+        <FloatingNav navItems={navItems} />
+      </div>
       <Hero />
       <TechStack />
-      <MyProject/>
+      <MyProject />
       <Experience />
-      <Footer/>
+      <Footer />
     </main>
   );
 }

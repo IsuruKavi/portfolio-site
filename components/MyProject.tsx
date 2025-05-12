@@ -1,6 +1,7 @@
 import React from "react";
 import { GlareCard } from "./ui/glare-card";
 import { myProjects } from "@/data";
+import { BackgroundGradient } from "./ui/background-gradient";
 
 function MyProject() {
   return (
@@ -8,7 +9,7 @@ function MyProject() {
       <h2 className="text-white text-center text-2xl md:text-4xl font-semibold mb-10">
         My Project
       </h2>
-      <div className="justify-center items-center md:flex md:flex-row gap-12 ">
+      <div className="justify-center items-center md:flex md:flex-row gap-12 hidden">
         {myProjects.map((item) => (
           <div key={item.id} className="my-8">
             <GlareCard
@@ -20,6 +21,22 @@ function MyProject() {
                 {item.desc}
               </p>
             </GlareCard>
+          </div>
+        ))}
+      </div>
+      <div className="justify-center items-center   gap-12 md:hidden">
+        {myProjects.map((item) => (
+          <div key={item.id} className="my-8 px-4">
+         
+            <BackgroundGradient
+              key={item.id}
+              className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900"
+            >
+              <p className="font-bold text-white text-lg">{item.title}</p>
+              <p className="font-normal text-base text-neutral-200 mt-4">
+                {item.desc}
+              </p>
+            </BackgroundGradient>
           </div>
         ))}
       </div>
