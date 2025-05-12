@@ -9,9 +9,9 @@ function MyProject() {
       <h2 className="text-white text-center text-2xl md:text-4xl font-semibold mb-10 font-poppins">
         My Project
       </h2>
-      <div className="justify-center items-center md:flex md:flex-row gap-12 hidden">
+      <div className="sm:grid hidden sm:grid-cols-2 sm:px-4 lg:grid-cols-3 gap-12 justify-center items-center">
         {myProjects.map((item) => (
-          <div key={item.id} className="my-8">
+          <div key={item.id} className="my-8 ">
             <GlareCard
               key={item.id}
               className="flex flex-col items-start justify-end py-8 px-6 "
@@ -26,7 +26,7 @@ function MyProject() {
           </div>
         ))}
       </div>
-      <div className="justify-center items-center   gap-12 md:hidden">
+      <div className="justify-center items-center   gap-12 sm:hidden">
         {myProjects.map((item) => (
           <div key={item.id} className="my-8 px-4">
             <BackgroundGradient
