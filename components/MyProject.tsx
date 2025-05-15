@@ -5,13 +5,13 @@ import { BackgroundGradient } from "./ui/background-gradient";
 
 function MyProject() {
   return (
-    <div className="mt-12 md:mt-16 justify-center  mx-auto">
+    <div className="mt-12 md:mt-16 justify-center  mx-auto ">
       <h2 className="text-white text-center text-2xl md:text-4xl font-semibold mb-10 font-poppins">
         My Project
       </h2>
-      <div className="sm:grid hidden sm:grid-cols-2 sm:px-4 lg:grid-cols-3 gap-12 justify-center items-center">
+      <div className="sm:grid hidden sm:grid-cols-2  lg:grid-cols-3 gap-12 justify-center items-center">
         {myProjects.map((item) => (
-          <div key={item.id} className="my-8 ">
+          <div key={item.id} className=" ">
             <GlareCard
               key={item.id}
               className="flex flex-col items-start justify-end py-8 px-6 "
